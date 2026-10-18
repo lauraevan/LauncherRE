@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171615">
+  <meta name="description" content="LauncherRE: reverse-engineering research preview of the modern Minecraft launcher interface.">
+  <title>LauncherRE · Minecraft Launcher frontend research</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="window-bar" aria-label="Window">
+    <div class="window-title"><span class="window-brand-icon" aria-hidden="true"></span>MINECRAFT LAUNCHER <span class="research-tag">RESEARCH PREVIEW</span></div>
+    <div class="window-actions" aria-hidden="true"><i></i><i></i><i></i></div>
+  </div>
+  <div class="application">
+    <aside class="sidebar">
+      <button class="account" type="button" data-page="account" aria-label="Account menu">
+        <span class="avatar" aria-hidden="true"><span></span></span>
+        <span class="account-text"><strong>Player</strong><small>Offline UI preview</small></span><span class="chevron" aria-hidden="true">⌄</span>
+      </button>
+      <nav class="side-nav" aria-label="Launcher navigation">
+        <div class="nav-group">
+          <button class="nav-entry" data-page="home" type="button"><span class="glyph glyph-home" aria-hidden="true">⌂</span><span>Home</span></button>
+        </div>
+        <div class="nav-label">MINECRAFT GAMES</div>
+        <div class="nav-group">
+          <button class="nav-entry active" data-page="java" type="button" aria-current="page"><span class="edition-icon grass-icon" aria-hidden="true"></span><span>Minecraft: Java Edition</span></button>
+          <button class="nav-entry" data-page="bedrock" type="button"><span class="edition-icon bedrock-icon" aria-hidden="true"></span><span>Minecraft for Windows</span></button>
+          <button class="nav-entry" data-page="dungeons" type="button"><span class="edition-icon dungeons-icon" aria-hidden="true"></span><span>Minecraft Dungeons</span></button>
+          <button class="nav-entry" data-page="dungeons2" type="button"><span class="edition-icon dungeons2-icon" aria-hidden="true"></span><span>Minecraft Dungeons II</span></button>
+          <button class="nav-entry" data-page="legends" type="button"><span class="edition-icon legends-icon" aria-hidden="true"></span><span>Minecraft Legends</span></button>
+        </div>
+      </nav>
+      <div class="side-bottom">
+        <button class="nav-entry" data-page="settings" type="button"><span class="glyph" aria-hidden="true">⚙</span><span>Settings</span></button>
+        <button class="nav-entry" data-page="about" type="button"><span class="glyph" aria-hidden="true">ⓘ</span><span>About</span></button>
+      </div>
+    </aside>
+    <main class="main" id="main">
+      <section class="page" id="page-java" data-page-content="java">
+        <header class="page-heading">
+          <span class="page-title">MINECRAFT: JAVA EDITION</span>
+          <nav class="page-tabs" aria-label="Java Edition tabs">
+            <button type="button" class="tab is-active" data-tab="play">Play</button>
+            <button type="button" class="tab" data-tab="installations">Installations</button>
+            <button type="button" class="tab" data-tab="skins">Skins</button>
+            <button type="button" class="tab" data-tab="patch">Patch Notes</button>
+          </nav>
+        </header>
+        <div class="tab-panel" data-panel="play">
+          <div class="hero">
+            <div class="scene" aria-hidden="true">
+              <div class="scene-sky"></div><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div>
+              <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+              <div class="tree tree-a"></div><div class="tree tree-b"></div><div class="tree tree-c"></div>
+              <div class="land"></div><div class="flowers"></div>
+            </div>
+            <div class="scene-overlay"></div>
+            <div class="hero-content">
+              <div class="hero-heading">MINECRAFT</div>
+              <div class="hero-subheading">JAVA EDITION</div>
+              <div class="hero-caption">Create. Explore. Survive.</div>
+            </div>
+            <div class="hero-play"><button id="play-button" class="btn-play" type="button">PLAY</button><span class="hero-hint">Launcher interface preview</span></div>
+          </div>
+          <div class="version-bar">
+            <div class="version-icon" aria-hidden="true"></div>
+            <div class="version-text"><strong>Latest Release</strong><span>Java Edition · available versions in Installations</span></div>
+            <button type="button" class="version-chevron" data-tab-target="installations" aria-label="View installations">⌄</button>
+            <div class="version-spacer"></div>
+            <span class="status-dot"></span><span class="subtle">Interface preview</span>
+          </div>
+          <div class="info-grid">
+            <article class="info-panel"><div class="info-eyebrow">NEWS</div><h2>Welcome to Minecraft Launcher</h2><p>Explore Java Edition, manage installations, and customize the launcher interface.</p><div class="small-note">LauncherRE · independent frontend reconstruction</div></article>
+            <article class="info-panel info-panel-dark"><div class="info-eyebrow">QUICK PLAY</div><h2>Pick up where you left off</h2><p>Quick Play requires access to a local Minecraft installation.</p><button class="secondary-btn" id="quickplay-info" type="button">Learn more</button></article>
+          </div>
+        </div>
+        <div class="tab-panel hidden" data-panel="installations"><div class="section-heading"><h1>Installations</h1><button class="secondary-btn" id="new-installation">+ New Installation</button></div><p class="hint-text">Manage versions and local game profiles.</p><div class="install-row"><div class="install-image"><span>MC</span></div><div><strong>Latest release</strong><span>Local configuration not connected</span></div><button class="secondary-btn small" id="installation-play">Play</button></div></div>
+        <div class="tab-panel hidden" data-panel="skins"><div class="section-heading"><h1>Skins</h1><button class="secondary-btn" id="add-skin">+ New Skin</button></div><p class="hint-text">Choose a skin for Minecraft: Java Edition.</p><div class="skin-panel"><div class="skin-placeholder"><div class="head"></div><div class="torso"></div><div class="arm arm-left"></div><div class="arm arm-right"></div><div class="leg leg-left"></div><div class="leg leg-right"></div></div><div><strong>Character preview</strong><p>Sign-in and skin uploads are not connected in this browser preview.</p></div></div></div>
+        <div class="tab-panel hidden" data-panel="patch"><div class="section-heading"><h1>Patch Notes</h1></div><p class="hint-text">Official patch notes require a live content connection.</p><div class="info-panel"><div class="info-eyebrow">LAUNCHERRE</div><h2>Frontend research build</h2><p>Research snapshot: October 12, 2026. This interface uses independent CSS; official launcher stylesheets were recovered separately for analysis.</p></div></div>
+      </section>
+      <section class="page hidden simple-page" data-page-content="home"><header class="simple-header"><h1>Home</h1><p>Your Minecraft launcher hub.</p></header><div class="home-hero"><span class="section-kicker">WELCOME BACK</span><h2>MINECRAFT LAUNCHER</h2><p>Play your Minecraft games from one place.</p><button class="secondary-btn" type="button" data-page="java">Java Edition</button></div><div class="tile-list"><button data-page="java">Minecraft: Java Edition <span>›</span></button><button data-page="bedrock">Minecraft for Windows <span>›</span></button><button data-page="dungeons">Minecraft Dungeons <span>›</span></button></div></section>
+      <section class="page hidden simple-page" data-page-content="bedrock"><header class="simple-header"><h1>Minecraft for Windows</h1><p>Bedrock Edition</p></header><div class="notice-pane"><h2>MINECRAFT FOR WINDOWS</h2><p>The Windows Store integration requires native platform APIs.</p><button class="btn-play preview-action" type="button">INSTALL</button></div></section>
+      <section class="page hidden simple-page" data-page-content="dungeons"><header class="simple-header"><h1>Minecraft Dungeons</h1><p>Action-adventure</p></header><div class="notice-pane"><h2>MINECRAFT DUNGEONS</h2><p>A game launcher backend has not been connected yet.</p><button class="btn-play preview-action" type="button">PLAY</button></div></section>
+      <section class="page hidden simple-page" data-page-content="dungeons2"><header class="simple-header"><h1>Minecraft Dungeons II</h1><p>Action-adventure</p></header><div class="notice-pane"><h2>MINECRAFT DUNGEONS II</h2><p>Frontend navigation is available; actual game launching isn't implemented.</p><button class="btn-play preview-action" type="button">PLAY</button></div></section>
+      <section class="page hidden simple-page" data-page-content="legends"><header class="simple-header"><h1>Minecraft Legends</h1><p>Action strategy</p></header><div class="notice-pane"><h2>MINECRAFT LEGENDS</h2><p>The interface is separate from a real installation.</p><button class="btn-play preview-action" type="button">PLAY</button></div></section>
+      <section class="page hidden simple-page" data-page-content="account"><header class="simple-header"><h1>Account</h1><p>Manage your Minecraft account.</p></header><div class="notice-pane"><h2>OFFLINE RESEARCH PREVIEW</h2><p>Authentication has intentionally not been implemented.</p></div></section>
+      <section class="page hidden simple-page" data-page-content="settings"><header class="simple-header"><h1>Settings</h1><p>Customize this launcher interface.</p></header><div class="settings-block"><h2>General</h2><label class="setting-row"><span>Compact sidebar</span><input type="checkbox" id="compact-sidebar"></label><label class="setting-row"><span>Reduce animations</span><input type="checkbox" id="reduce-motion"></label><div class="setting-row"><span>Theme</span><strong>Dark</strong></div></div><div class="settings-block"><h2>About this build</h2><p>LauncherRE web UI alpha · Independent CSS reconstruction informed by official recovered stylesheet metadata.</p></div></section>
+      <section class="page hidden simple-page" data-page-content="about"><header class="simple-header"><h1>LauncherRE</h1><p>Official launcher research, independently maintained frontend.</p></header><div class="settings-block"><h2>Research status</h2><p>Six Mojang stylesheets and three HTML entry documents have been individually recovered and verified from the Linux launcher 3.41.29 binary. The published web UI does not embed those proprietary source files.</p><a class="text-link" href="https://github.com/lauraevan/LauncherRE">Open GitHub repository ↗</a></div></section>
+    </main>
+  </div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+</body>
+</html>
