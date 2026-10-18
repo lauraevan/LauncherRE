@@ -245,7 +245,13 @@ def command_inventory(args: argparse.Namespace) -> None:
 
 
 def command_fetch(args: argparse.Namespace) -> None:
-    entries = load_live_entries()
+    if args.live:
+        entries = load_live_entries()
+    else:
+        pinned = json.loads(
+            (REPO_ROOT / "data" / "mojang-manifest-2026-10-12.json").read_text(encoding="utf-8")
+        )
+        entries = parse_entries(pinned)
     selected = select_entries(entries, args.select)
     root = Path(args.output).resolve()
     success = failures = 0
@@ -302,6 +308,8 @@ def main() -> None:
     fet = sub.add_parser("fetch", help="Download SHA-1-verified Mojang launcher files")
     fet.add_argument("--select", default="frontend-candidates", help="media|small|frontend-candidates|all|exact path")
     fet.add_argument("--output", default=".cache/launcher")
+    fet.add_argument("--live", action="store_true",
+                     help="Re-read pinned Mojang manifest URL; default uses checked-in metadata")
     ins = sub.add_parser("inspect", help="Record ZIP filenames/encryption status without decrypting/extracting")
     ins.add_argument("--root", default=".cache/launcher")
     ins.add_argument("--output", default="reports/inspection.json")
