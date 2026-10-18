@@ -1,0 +1,50 @@
+name: Deploy LauncherRE browser preview
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "preview/**"
+      - ".github/workflows/preview.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "launcherre-pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate static preview
+        run: |
+          node --check preview/app.js
+          test -s preview/index.html
+          test -s preview/style.css
+          grep -q 'href="./style.css"' preview/index.html
+          grep -q 'src="./app.js"' preview/index.html
+      - name: Upload static preview
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: preview
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Enable Pages workflow publishing if not configured
+        run: |
+          gh api repos/"$GITHUB_REPOSITORY"/pages >/dev/null 2>&1 ||
+          gh api -X POST repos/"$GITHUB_REPOSITORY"/pages -f build_type=workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - id: deployment
+        uses: actions/deploy-pages@v4
