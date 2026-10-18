@@ -37,11 +37,13 @@ All downloaded Mojang files stay in ignored local `.cache/` by default. Inspecti
 
 ## Layout
 
+- `data/mojang-manifest-2026-10-12.json`: pinned official manifest containing all 104 entries
 - `data/media-2026-10-12.json`: verified metadata for the 24 media archives; **not extracted content**
 - `tools/launcher_re.py`: manifest download, verification, ZIP inspection, frontend string scanning
 - `tests/`: local tests for URL/ZIP safety, byte strings and manifest parsing
 - `docs/findings.md`: evidence and research status
 - `docs/next-steps.md`: practical investigation plan and reconstruction milestones
+- `.github/workflows/probe.yml`: one-time GitHub-hosted static inspection of selected official files, uploading metadata reports only
 
 ## Related research
 
