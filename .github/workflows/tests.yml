@@ -1,0 +1,20 @@
+name: LauncherRE checks
+on:
+  push:
+  pull_request:
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Python scripts
+        run: python -m compileall -q tools tests
+      - name: Test manifest and ZIP safety
+        run: python -m unittest discover -s tests -v
+      - name: Check pinned inventory offline
+        run: python tools/launcher_re.py inventory
