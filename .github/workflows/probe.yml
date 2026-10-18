@@ -1,0 +1,54 @@
+name: LauncherRE official snapshot probe
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/probe.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  static-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify pinned manifest and tool
+        run: |
+          python -m unittest discover -s tests -v
+          python tools/launcher_re.py inventory
+      - name: Retrieve only verified frontend candidates from Mojang
+        run: |
+          python tools/launcher_re.py fetch --select frontend-candidates --output .cache/launcher
+      - name: Inspect ZIP metadata and scan static resource strings
+        run: |
+          python tools/launcher_re.py inspect --root .cache/launcher --output reports/inspection.json
+          python tools/launcher_re.py scan --root .cache/launcher --output reports/strings.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("reports/inspection.json").read_text())
+          print("\n== ZIP METADATA SUMMARY ==")
+          for z in report["archives"]:
+              print(f"{z['path']} valid={z['valid_zip']} encrypted_entries={z.get('encrypted_entries')} count={z.get('entry_count')}")
+              for item in z.get("entries", [])[:12]:
+                  print("  ",item["filename"], "encrypted="+str(item["encrypted"]))
+          scan = json.loads(Path("reports/strings.json").read_text())
+          print("\n== FRONTEND STRING HITS ==")
+          for f in scan["matches"]:
+              print("FILE", f["path"],"matches=", len(f["matches"]))
+              for s in f["matches"][:25]:
+                  print("  ",s[:300])
+          PY
+      - name: Publish metadata reports only (not downloaded binaries)
+        uses: actions/upload-artifact@v4
+        with:
+          name: launcherre-official-static-probe
+          path: reports/*.json
+          if-no-files-found: error
+          retention-days: 14
