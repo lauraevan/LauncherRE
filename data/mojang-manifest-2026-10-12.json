@@ -1,0 +1,1116 @@
+{
+  "files": {
+    "chrome-sandbox": {
+      "downloads": {
+        "raw": {
+          "sha1": "c1e3f0db6757471103b9a086121c2063c7a39710",
+          "size": 746808,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/c1e3f0db6757471103b9a086121c2063c7a39710/chrome-sandbox"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "chrome_100_percent.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "8f463534b3b29f37fb802a940ba537bac271029f",
+          "size": 680941,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/8f463534b3b29f37fb802a940ba537bac271029f/chrome_100_percent.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "chrome_200_percent.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "40bc019888bb7dfb2bb230fc365adff789114691",
+          "size": 1064895,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/40bc019888bb7dfb2bb230fc365adff789114691/chrome_200_percent.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons": {
+      "type": "directory"
+    },
+    "icons/minecraft128.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "bde7a12296700d67360398ee979aa1c37078407c",
+          "size": 1193,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/bde7a12296700d67360398ee979aa1c37078407c/minecraft128.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons/minecraft16.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "69a64b017f25fbb8f26762cc76ef4d1a42fd4c70",
+          "size": 595,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/69a64b017f25fbb8f26762cc76ef4d1a42fd4c70/minecraft16.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons/minecraft256.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "695ad06c7761373d203400b3b9d4ec0a96e6bfb9",
+          "size": 1781,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/695ad06c7761373d203400b3b9d4ec0a96e6bfb9/minecraft256.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons/minecraft32.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "941946c78f86829223de88c2b188bcfc641de4a2",
+          "size": 769,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/941946c78f86829223de88c2b188bcfc641de4a2/minecraft32.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons/minecraft48.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "adef68ae95bdd6faf9538d6990062da3bc243fa1",
+          "size": 856,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/adef68ae95bdd6faf9538d6990062da3bc243fa1/minecraft48.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icons/minecraft64.png": {
+      "downloads": {
+        "raw": {
+          "sha1": "5b2f2b564c1a846d41a122712627a73ac7b6fcea",
+          "size": 938,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/5b2f2b564c1a846d41a122712627a73ac7b6fcea/minecraft64.png"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "icudtl.dat": {
+      "downloads": {
+        "raw": {
+          "sha1": "99f545bc396878c7a53e98a79017d9531af7c1f5",
+          "size": 10468208,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/99f545bc396878c7a53e98a79017d9531af7c1f5/icudtl.dat"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "lib": {
+      "type": "directory"
+    },
+    "lib/libmat.a": {
+      "downloads": {
+        "raw": {
+          "sha1": "7b9299d2f8737fcdcfdb2b1719c7bf9ace2c7153",
+          "size": 5282704,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/7b9299d2f8737fcdcfdb2b1719c7bf9ace2c7153/libmat.a"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "libEGL.so": {
+      "downloads": {
+        "raw": {
+          "sha1": "4a4ff5fe557713f4d924ae9b3428822e069b19a8",
+          "size": 913288,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4a4ff5fe557713f4d924ae9b3428822e069b19a8/libEGL.so"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "libGLESv2.so": {
+      "downloads": {
+        "raw": {
+          "sha1": "01ed939e9529dae5cd9de13459f2bdc1997767d5",
+          "size": 26950080,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/01ed939e9529dae5cd9de13459f2bdc1997767d5/libGLESv2.so"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "libcef.so": {
+      "downloads": {
+        "raw": {
+          "sha1": "6fc6e59c8f67e52ab49aa6979e75376f8ccae1b1",
+          "size": 218760864,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/6fc6e59c8f67e52ab49aa6979e75376f8ccae1b1/libcef.so"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "liblauncher.so": {
+      "downloads": {
+        "raw": {
+          "sha1": "82057cde263854ee0cbc18da896dadf5e6a46a40",
+          "size": 32029200,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/82057cde263854ee0cbc18da896dadf5e6a46a40/liblauncher.so"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "libvk_swiftshader.so": {
+      "downloads": {
+        "raw": {
+          "sha1": "4aa40f2432e60ae2672ee61066b65475e7dc3b56",
+          "size": 17517704,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4aa40f2432e60ae2672ee61066b65475e7dc3b56/libvk_swiftshader.so"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "libvulkan.so.1": {
+      "downloads": {
+        "raw": {
+          "sha1": "1c38840d7efbd3fbb0e6cb09e95eba5a8c96b3a4",
+          "size": 1435624,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/1c38840d7efbd3fbb0e6cb09e95eba5a8c96b3a4/libvulkan.so.1"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "locales": {
+      "type": "directory"
+    },
+    "locales/af.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "35b53d854eaf12c09ea42550c332199c41f3987b",
+          "size": 518880,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/35b53d854eaf12c09ea42550c332199c41f3987b/af.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/am.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "2688b0c205e7d2b1266a48d6cc4f8e7fb883a8a5",
+          "size": 837820,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/2688b0c205e7d2b1266a48d6cc4f8e7fb883a8a5/am.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ar.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "2e67317e4b0693a2d3910ee13af9963d4266aadb",
+          "size": 923159,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/2e67317e4b0693a2d3910ee13af9963d4266aadb/ar.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/bg.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "cff78f6423a851c79e4c405e80cc8d0be819d6ae",
+          "size": 955762,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/cff78f6423a851c79e4c405e80cc8d0be819d6ae/bg.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/bn.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "6810ec2c62495aee1af3aaad81a772d350cf8d76",
+          "size": 1228539,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/6810ec2c62495aee1af3aaad81a772d350cf8d76/bn.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ca.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "88a60c354613717a935c66a85bdede7c1a262d8a",
+          "size": 590756,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/88a60c354613717a935c66a85bdede7c1a262d8a/ca.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/cs.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "d10057c00a1620f3fe3758b8880048d3e9d5cf66",
+          "size": 600494,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/d10057c00a1620f3fe3758b8880048d3e9d5cf66/cs.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/da.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "f0ee5a007706e8ca53524408c87eb20c53c72f6c",
+          "size": 547377,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/f0ee5a007706e8ca53524408c87eb20c53c72f6c/da.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/de.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "4901c02cd744bb2874df3d9443f91a28fb5e96d4",
+          "size": 588506,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4901c02cd744bb2874df3d9443f91a28fb5e96d4/de.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/el.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "cc52b12da1dd8603947088b57a673ff63234a600",
+          "size": 1045836,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/cc52b12da1dd8603947088b57a673ff63234a600/el.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/en-GB.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "83d6518a646afa1d4fa830b6a3cb8cd530632fbe",
+          "size": 473758,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/83d6518a646afa1d4fa830b6a3cb8cd530632fbe/en-GB.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/en-US.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "81e2ca4aee93e0b0103270f263eafc06397894db",
+          "size": 478405,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/81e2ca4aee93e0b0103270f263eafc06397894db/en-US.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/es-419.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "ef16e441f6655b319d2a097b77a4ff959fbb222a",
+          "size": 577204,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/ef16e441f6655b319d2a097b77a4ff959fbb222a/es-419.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/es.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "7789c8a2951f38606d5a6dd11f968155fbcbfc66",
+          "size": 575699,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/7789c8a2951f38606d5a6dd11f968155fbcbfc66/es.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/et.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0f16cd49d4fb69102514dbc81bd9308846bcdc53",
+          "size": 524829,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0f16cd49d4fb69102514dbc81bd9308846bcdc53/et.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/fa.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "a7f000b07e1eadc1583111c38559941ac93ea9f7",
+          "size": 850246,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/a7f000b07e1eadc1583111c38559941ac93ea9f7/fa.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/fi.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "e94a30af743d97b8bccfa08e0d00bef1db15e977",
+          "size": 533010,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e94a30af743d97b8bccfa08e0d00bef1db15e977/fi.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/fil.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "4cfbcbffd4f29432ed6c7c3bc2d0d7b007876c2a",
+          "size": 602755,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4cfbcbffd4f29432ed6c7c3bc2d0d7b007876c2a/fil.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/fr.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "695c8cfaca18a1a50030b348d2393f5c7a21c0fc",
+          "size": 623621,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/695c8cfaca18a1a50030b348d2393f5c7a21c0fc/fr.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/gu.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "2441493ebcb835c9f01b5093125f239562bf7903",
+          "size": 1213398,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/2441493ebcb835c9f01b5093125f239562bf7903/gu.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/he.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0b0e4478ddce02211fa9ad2e3ed35c10ca902d7a",
+          "size": 751812,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0b0e4478ddce02211fa9ad2e3ed35c10ca902d7a/he.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/hi.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "e71dc5fbc13737465e739dfdfcddc27bf97731cb",
+          "size": 1287208,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e71dc5fbc13737465e739dfdfcddc27bf97731cb/hi.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/hr.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "8bec0400ec7f37e2d24d1d453cf69ba44accf94f",
+          "size": 579406,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/8bec0400ec7f37e2d24d1d453cf69ba44accf94f/hr.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/hu.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "484e82c98e2cad4c572433f7d43943e1aec2bcd9",
+          "size": 623984,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/484e82c98e2cad4c572433f7d43943e1aec2bcd9/hu.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/id.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "e80699767d9eb7684644f2467efa319cd3f968db",
+          "size": 516003,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e80699767d9eb7684644f2467efa319cd3f968db/id.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/it.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "54208e257b2e811be165e145beb79703a1418710",
+          "size": 573641,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/54208e257b2e811be165e145beb79703a1418710/it.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ja.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "355c6be417a0b2ddbd65637d6bc253ee689ea60e",
+          "size": 695131,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/355c6be417a0b2ddbd65637d6bc253ee689ea60e/ja.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/kn.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "68b4298b08c9a9be991c74104105cba612f9007c",
+          "size": 1379884,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/68b4298b08c9a9be991c74104105cba612f9007c/kn.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ko.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0827824c3337563cf4d7bb260600d08566a9f14b",
+          "size": 584740,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0827824c3337563cf4d7bb260600d08566a9f14b/ko.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/lt.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0656ddcc1a8facb9006de943a9e574b6b95634ed",
+          "size": 629614,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0656ddcc1a8facb9006de943a9e574b6b95634ed/lt.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/lv.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "c8e49fb19de93a23ab7cd6a4299c4985e69e9794",
+          "size": 628001,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/c8e49fb19de93a23ab7cd6a4299c4985e69e9794/lv.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ml.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "9cc46d5a2f2af81d288507a4b8346fe2bc8d7c64",
+          "size": 1434426,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/9cc46d5a2f2af81d288507a4b8346fe2bc8d7c64/ml.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/mr.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0b251778fecb66a0b2282dfcdd943dd238239bf0",
+          "size": 1183914,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0b251778fecb66a0b2282dfcdd943dd238239bf0/mr.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ms.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "ba4796f30aba179575a521cb57342dfd52170151",
+          "size": 540194,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/ba4796f30aba179575a521cb57342dfd52170151/ms.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/nb.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "f7fe1b9093635568decb2c7d4c3d9f12b5a35a35",
+          "size": 523344,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/f7fe1b9093635568decb2c7d4c3d9f12b5a35a35/nb.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/nl.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "5949fc3647e67d6157da37459cb047131d28bf41",
+          "size": 542102,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/5949fc3647e67d6157da37459cb047131d28bf41/nl.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/pl.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "9ff1393d63c8964c4c651ecd9a67977664aa12e4",
+          "size": 604892,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/9ff1393d63c8964c4c651ecd9a67977664aa12e4/pl.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/pt-BR.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "b8d4b6f153af2eb3361e7bec39c66e7aff998a98",
+          "size": 567327,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/b8d4b6f153af2eb3361e7bec39c66e7aff998a98/pt-BR.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/pt-PT.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "d8a79d3925a15a133ccdce1d7e3194b0daba58e4",
+          "size": 571682,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/d8a79d3925a15a133ccdce1d7e3194b0daba58e4/pt-PT.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ro.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "1fa08b034b0a6bfd78cd44b45f50ce6470c8e526",
+          "size": 590692,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/1fa08b034b0a6bfd78cd44b45f50ce6470c8e526/ro.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ru.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0ad327648c1c707c7fb376272f1db8aa4833e6ad",
+          "size": 970293,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0ad327648c1c707c7fb376272f1db8aa4833e6ad/ru.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/sk.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "7ed1642ed3756d4745371834ab4e9e1a88b78527",
+          "size": 609676,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/7ed1642ed3756d4745371834ab4e9e1a88b78527/sk.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/sl.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "3f7c554e4b9489a97fcf937a20bf47ce862094e6",
+          "size": 584996,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/3f7c554e4b9489a97fcf937a20bf47ce862094e6/sl.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/sr.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "38ab42b991164b2928b6f8b7c90704b4523e5f9b",
+          "size": 898851,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/38ab42b991164b2928b6f8b7c90704b4523e5f9b/sr.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/sv.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "3f7f25e21384dd4c24f328aee170841c823f32ca",
+          "size": 527550,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/3f7f25e21384dd4c24f328aee170841c823f32ca/sv.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/sw.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "7fd13c95faa7c8fb9b4eb6c4397d9abc22958825",
+          "size": 555433,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/7fd13c95faa7c8fb9b4eb6c4397d9abc22958825/sw.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ta.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "4a09715a63d185958016cd0b9c44a3519987aa63",
+          "size": 1431058,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4a09715a63d185958016cd0b9c44a3519987aa63/ta.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/te.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "af6690f14677ad84a3d395ed4efe50b14503ba76",
+          "size": 1317058,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/af6690f14677ad84a3d395ed4efe50b14503ba76/te.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/th.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "293612aa98bf94bb7647ac6be9b0cbcb1a37d5b1",
+          "size": 1106939,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/293612aa98bf94bb7647ac6be9b0cbcb1a37d5b1/th.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/tr.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "bde3aa070bfa96440816fa8382fb3a6841fbec82",
+          "size": 566367,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/bde3aa070bfa96440816fa8382fb3a6841fbec82/tr.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/uk.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "da547db6a5116a9735534abe507585f6eed77b2c",
+          "size": 967823,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/da547db6a5116a9735534abe507585f6eed77b2c/uk.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/ur.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "e1a16ff13dbd8af8857f1bb02e44ac8f5fdb9bd4",
+          "size": 843016,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e1a16ff13dbd8af8857f1bb02e44ac8f5fdb9bd4/ur.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/vi.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "c1ad61727bc394d955e656447fe50cb0a8a76fd8",
+          "size": 671521,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/c1ad61727bc394d955e656447fe50cb0a8a76fd8/vi.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/zh-CN.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "d3ec781cc12efe557c73a962cfed40b5ec89e2ec",
+          "size": 485461,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/d3ec781cc12efe557c73a962cfed40b5ec89e2ec/zh-CN.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "locales/zh-TW.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "0b8b740572d4b70f9818bcadff4909c1e876c7ea",
+          "size": 482304,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0b8b740572d4b70f9818bcadff4909c1e876c7ea/zh-TW.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media": {
+      "type": "directory"
+    },
+    "media/animation.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "6bf6ef31724a328e8f9ead78ea0121ac63a90321",
+          "size": 148187,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/6bf6ef31724a328e8f9ead78ea0121ac63a90321/animation.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/background.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "0405fc829b1bda3422207aec25ba121bf287f9a2",
+          "size": 25051390,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0405fc829b1bda3422207aec25ba121bf287f9a2/background.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/common.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "84131a8a94fb6a0125e1fbcecdab0d64dca2fe58",
+          "size": 216524,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/84131a8a94fb6a0125e1fbcecdab0d64dca2fe58/common.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/creatortools.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "3c16c334edccfaa69869d957966034ba94eb7965",
+          "size": 2727312,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/3c16c334edccfaa69869d957966034ba94eb7965/creatortools.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/dungeons2carousel.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "84a89522e73acdcccd5d409574e2c105659a2cb6",
+          "size": 44633051,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/84a89522e73acdcccd5d409574e2c105659a2cb6/dungeons2carousel.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/dungeons2weapons.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "bf94c09bd8d994dd7302f02d30363e8898426d22",
+          "size": 1147694,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/bf94c09bd8d994dd7302f02d30363e8898426d22/dungeons2weapons.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/dungeonscarousel.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "db708cdf7f55d0ef81dcb97c64402a5d9b79625b",
+          "size": 4582304,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/db708cdf7f55d0ef81dcb97c64402a5d9b79625b/dungeonscarousel.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/dungeonsmusicbeats.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "f12560524f0dfe68f39111551f3cf30909dab227",
+          "size": 6702997,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/f12560524f0dfe68f39111551f3cf30909dab227/dungeonsmusicbeats.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/fonts.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "d82d84717ed4cbc56ef99472f9613c3b1432813f",
+          "size": 3503823,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/d82d84717ed4cbc56ef99472f9613c3b1432813f/fonts.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/icons.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "5c30e7d7ef39df0366a90343a74ff4e7110bdff6",
+          "size": 14933,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/5c30e7d7ef39df0366a90343a74ff4e7110bdff6/icons.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/images.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "8c5474a7bc13c2eba137442d453a0e811861cf86",
+          "size": 4391770,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/8c5474a7bc13c2eba137442d453a0e811861cf86/images.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/legendscarosel.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "0423564e8072d35b3afdeec29475b82697856ef7",
+          "size": 5304884,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/0423564e8072d35b3afdeec29475b82697856ef7/legendscarosel.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/legendsmusicbeats.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "41d4825c385b96548b1530cc49dbc583198be47f",
+          "size": 9498998,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/41d4825c385b96548b1530cc49dbc583198be47f/legendsmusicbeats.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/loadingvideos.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "50e07185dfac3fa23aa5df8cf67a8a3c6c14c233",
+          "size": 14591260,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/50e07185dfac3fa23aa5df8cf67a8a3c6c14c233/loadingvideos.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/logos.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "222d28955583e3de3e563c6e0c6440eb28cd0282",
+          "size": 600689,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/222d28955583e3de3e563c6e0c6440eb28cd0282/logos.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/marketplacepass.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "e12826a380d46abfbd041781b014fb4505e12430",
+          "size": 1167867,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e12826a380d46abfbd041781b014fb4505e12430/marketplacepass.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/minecoin.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "f94135ecd48bb79c3fa6523abab53f93db295932",
+          "size": 1199745,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/f94135ecd48bb79c3fa6523abab53f93db295932/minecoin.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/movies.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "1af1e84df89dbb8d7e4d7c8f4909b392391fa952",
+          "size": 25934,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/1af1e84df89dbb8d7e4d7c8f4909b392391fa952/movies.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/onevanilla.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "62608a3dbbff570ec8c19c2fa14ce2bed0113cab",
+          "size": 6996118,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/62608a3dbbff570ec8c19c2fa14ce2bed0113cab/onevanilla.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/profile.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "c264f0875d7621210f05805b0d051bb02f30785f",
+          "size": 2264329,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/c264f0875d7621210f05805b0d051bb02f30785f/profile.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/realms.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "e07e8b8b511b0f1c8a20f1dd0b129815ce3660cd",
+          "size": 855202,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/e07e8b8b511b0f1c8a20f1dd0b129815ce3660cd/realms.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/textures.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "13c92c78bc5e1e7a5b572af9b45873830c3f5fb6",
+          "size": 201885,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/13c92c78bc5e1e7a5b572af9b45873830c3f5fb6/textures.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/upsellcontent.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "af1a4f9ac6b656bf7cd1b297059abed2eb08e024",
+          "size": 1396125,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/af1a4f9ac6b656bf7cd1b297059abed2eb08e024/upsellcontent.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "media/vanillamusicbeats.zip": {
+      "downloads": {
+        "raw": {
+          "sha1": "ad565205fbffd3e48376794a66a3f638d57a58b5",
+          "size": 6410605,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/ad565205fbffd3e48376794a66a3f638d57a58b5/vanillamusicbeats.zip"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "resources.pak": {
+      "downloads": {
+        "raw": {
+          "sha1": "4dfe88c0a36a205b48105eee834fa933b5bebe07",
+          "size": 8816122,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/4dfe88c0a36a205b48105eee834fa933b5bebe07/resources.pak"
+        }
+      },
+      "executable": false,
+      "type": "file"
+    },
+    "snapshot_blob.bin": {
+      "downloads": {
+        "raw": {
+          "sha1": "3315cf6a79a2c6be1af63bec450bb35a3058cf3a",
+          "size": 317550,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/3315cf6a79a2c6be1af63bec450bb35a3058cf3a/snapshot_blob.bin"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "v8_context_snapshot.bin": {
+      "downloads": {
+        "raw": {
+          "sha1": "6e235702cdf292ab3820d22e21a24a277f329c86",
+          "size": 671997,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/6e235702cdf292ab3820d22e21a24a277f329c86/v8_context_snapshot.bin"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    },
+    "vk_swiftshader_icd.json": {
+      "downloads": {
+        "raw": {
+          "sha1": "08a83ab661feb866ab881fc7cf0e2b1dc4a5c43d",
+          "size": 107,
+          "url": "https://redstone-launcher.mojang.com/release/v2/objects/08a83ab661feb866ab881fc7cf0e2b1dc4a5c43d/vk_swiftshader_icd.json"
+        }
+      },
+      "executable": true,
+      "type": "file"
+    }
+  }
+}
