@@ -53,6 +53,16 @@ jobs:
       - name: Analyze embedded CSS payloads without publishing source
         run: |
           python tools/css_probe.py .cache/launcher/liblauncher.so --report reports/css-analysis.json
+      - name: Profile verified CSS theme
+        run: |
+          python tools/css_theme.py
+      - name: Make recovered CSS available as a short-lived research artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-launcher-css-private-research
+          path: .cache/extracted-css/*.css
+          if-no-files-found: error
+          retention-days: 1
       - name: Publish metadata reports only (not downloaded binaries)
         uses: actions/upload-artifact@v4
         with:
