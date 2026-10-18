@@ -2,12 +2,23 @@
 
 Research workspace and reproducible tooling for studying the **official Minecraft Launcher**, with an emphasis on its modern Chromium Embedded Framework (CEF) interface. The objective is to document and eventually reconstruct launcher behavior in readable, independently maintained code, with a browser-based UI as a possible target.
 
+## Browser preview (independent CSS)
+
+**[Open LauncherRE frontend preview](https://raw.githack.com/lauraevan/LauncherRE/main/preview/index.html)** · [Source HTML](preview/index.html) · [Editable CSS](preview/style.css) · [JavaScript](preview/app.js)
+
+A deployable, static browser research preview is available from the public GitHub repository through RawGitHack. Its tabs, navigation and UI-only controls are interactive, but it does **not** launch Minecraft. This is **independently authored CSS**, not a verbatim distribution of Mojang's stylesheets. Some styling remains provisional pending deeper UI verification.
+
+Official launcher CSS recovery has succeeded: **six real 2026 CSS files were individually decompressed and CRC/size-verified** from the Mojang-distributed `liblauncher.so`. The original CSS is available through a **short-lived GitHub Actions research artifact** (see [probe runs](https://github.com/lauraevan/LauncherRE/actions/workflows/probe.yml)) rather than being committed as public source. Re-run the probe to regenerate an expired artifact. No Mojang fonts are redistributed.
+
+For future GitHub Pages publishing, enable **Settings → Pages → Build and deployment → GitHub Actions** on this repo, then manually trigger [preview.yml](.github/workflows/preview.yml). The workflow cannot enable Pages itself with its limited GitHub token.
+
 ## Current state (2026-10-18)
 
 - **Verified:** Mojang's Redstone launcher distribution manifest at the pinned URL below lists 104 paths, including 24 `media/*.zip` asset archives, `liblauncher.so`, `libcef.so`, `resources.pak`, and Chromium support files.
 - **Indexed:** filenames, SHA-1 identifiers and download sizes of all 24 official media archives are preserved under `data/`.
 - **Tooling:** `tools/launcher_re.py` can retrieve manifests, download selected files, validate their SHA-1 hashes, inventory ZIP contents (including encrypted-entry flags), and scan locally available bundles for likely HTML/JS/CSS frontend files.
-- **Not yet accomplished:** no original React source, JavaScript bundle, decrypted ZIP contents, or fully playable browser launcher has been recovered in this repository. The ZIP content could not be retrieved from the current research runtime. The pinned build was identified as launcher core **3.41.29**, dated **2026-10-12**; this is a specific research snapshot, not a promise of the newest build.
+- **CSS recovered:** six 2026 CSS files and three HTML entry documents are individually verified after decompressing embedded ZIP entries with data descriptors. Metadata, byte hashes and theme profiles are recorded; extracted source files are not committed.
+- **Not yet accomplished:** no original React source, main JavaScript bundle, or fully playable browser launcher has been reconstructed. A separate independently authored static preview is available. The pinned build was identified as launcher core **3.41.29**, dated **2026-10-12**; this is a specific research snapshot, not a promise of the newest build.
 
 ### Pinned primary source
 
@@ -43,6 +54,7 @@ All downloaded Mojang files stay in ignored local `.cache/` by default. Inspecti
 - `tests/`: local tests for URL/ZIP safety, byte strings and manifest parsing
 - `docs/findings.md`: evidence and research status
 - `docs/next-steps.md`: practical investigation plan and reconstruction milestones
+- `preview/`: static independently-authored frontend UI and CSS, directly viewable with RawGitHack
 - `.github/workflows/probe.yml`: one-time GitHub-hosted static inspection of selected official files, uploading metadata reports only
 
 ## Related research
