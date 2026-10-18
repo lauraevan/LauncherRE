@@ -12,7 +12,10 @@ import re
 import struct
 import zlib
 from pathlib import Path
-from tools.embedded_resources import local_headers
+try:
+    from .embedded_resources import local_headers
+except ImportError:
+    from embedded_resources import local_headers
 
 CSS_PATH = re.compile(r"^launcher/static/css/[A-Za-z0-9_.-]+\.css$")
 HTML_PATH = re.compile(r"^launcher/[A-Za-z0-9_.-]+\.html$")
