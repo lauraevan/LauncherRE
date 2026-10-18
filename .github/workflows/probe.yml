@@ -45,6 +45,9 @@ jobs:
               for s in f["matches"][:25]:
                   print("  ",s[:300])
           PY
+      - name: Examine embedded frontend path table and ZIP header candidates
+        run: |
+          python tools/embedded_resources.py .cache/launcher/liblauncher.so --output reports/embedded-resources.json
       - name: Publish metadata reports only (not downloaded binaries)
         uses: actions/upload-artifact@v4
         with:
