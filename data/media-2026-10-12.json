@@ -1,0 +1,129 @@
+{
+  "build": "3.41.29",
+  "research_snapshot": "2026-10-12",
+  "observed_at": "2026-10-18",
+  "source_manifest": "https://redstone-launcher.mojang.com/release/v2/packages/5d80e3741c770efb29509f2dabf74673449d4365/manifest.json",
+  "note": "Metadata from the Mojang manifest; these are NOT extracted or decrypted assets. File URLs are pinned object URLs.",
+  "media": {
+    "media/animation.zip": {
+      "sha1": "6bf6ef31724a328e8f9ead78ea0121ac63a90321",
+      "size": 148187,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/6bf6ef31724a328e8f9ead78ea0121ac63a90321/animation.zip"
+    },
+    "media/background.zip": {
+      "sha1": "0405fc829b1bda3422207aec25ba121bf287f9a2",
+      "size": 25051390,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/0405fc829b1bda3422207aec25ba121bf287f9a2/background.zip"
+    },
+    "media/common.zip": {
+      "sha1": "84131a8a94fb6a0125e1fbcecdab0d64dca2fe58",
+      "size": 216524,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/84131a8a94fb6a0125e1fbcecdab0d64dca2fe58/common.zip"
+    },
+    "media/creatortools.zip": {
+      "sha1": "3c16c334edccfaa69869d957966034ba94eb7965",
+      "size": 2727312,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/3c16c334edccfaa69869d957966034ba94eb7965/creatortools.zip"
+    },
+    "media/dungeons2carousel.zip": {
+      "sha1": "84a89522e73acdcccd5d409574e2c105659a2cb6",
+      "size": 44633051,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/84a89522e73acdcccd5d409574e2c105659a2cb6/dungeons2carousel.zip"
+    },
+    "media/dungeons2weapons.zip": {
+      "sha1": "bf94c09bd8d994dd7302f02d30363e8898426d22",
+      "size": 1147694,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/bf94c09bd8d994dd7302f02d30363e8898426d22/dungeons2weapons.zip"
+    },
+    "media/dungeonscarousel.zip": {
+      "sha1": "db708cdf7f55d0ef81dcb97c64402a5d9b79625",
+      "size": 4582304,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/db708cdf7f55d0ef81dcb97c64402a5d9b79625/dungeonscarousel.zip"
+    },
+    "media/dungeonsmusicbeats.zip": {
+      "sha1": "f12560524f0dfe68f39111551f3cf30909dab227",
+      "size": 6702997,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/f12560524f0dfe68f39111551f3cf30909dab227/dungeonsmusicbeats.zip"
+    },
+    "media/fonts.zip": {
+      "sha1": "d82d84717ed4cbc56ef99472f9613c3b1432813f",
+      "size": 3503823,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/d82d84717ed4cbc56ef99472f9613c3b1432813f/fonts.zip"
+    },
+    "media/icons.zip": {
+      "sha1": "5c30e7d7ef39df0366a90343a74ff4e7110bdff6",
+      "size": 14933,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/5c30e7d7ef39df0366a90343a74ff4e7110bdff6/icons.zip"
+    },
+    "media/images.zip": {
+      "sha1": "8c5474a7bc13c2eba137442d453a0e811861cf86",
+      "size": 4391770,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/8c5474a7bc13c2eba137442d453a0e811861cf86/images.zip"
+    },
+    "media/legendscarosel.zip": {
+      "sha1": "0423564e8072d35b3afdeec29475b82697856ef7",
+      "size": 5304884,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/0423564e8072d35b3afdeec29475b82697856ef7/legendscarosel.zip"
+    },
+    "media/legendsmusicbeats.zip": {
+      "sha1": "41d4825c385b96548b1530cc49dbc583198be47f",
+      "size": 9498998,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/41d4825c385b96548b1530cc49dbc583198be47f/legendsmusicbeats.zip"
+    },
+    "media/loadingvideos.zip": {
+      "sha1": "50e07185dfac3fa23aa5df8cf67a8a3c6c14c233",
+      "size": 14591260,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/50e07185dfac3fa23aa5df8cf67a8a3c6c14c233/loadingvideos.zip"
+    },
+    "media/logos.zip": {
+      "sha1": "222d28955583e3de3e563c6e0c6440eb28cd0282",
+      "size": 600689,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/222d28955583e3de3e563c6e0c6440eb28cd0282/logos.zip"
+    },
+    "media/marketplacepass.zip": {
+      "sha1": "e12826a380d46abfbd041781b014fb4505e12430",
+      "size": 1167867,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/e12826a380d46abfbd041781b014fb4505e12430/marketplacepass.zip"
+    },
+    "media/minecoin.zip": {
+      "sha1": "f94135ecd48bb79c3fa6523abab53f93db295932",
+      "size": 1199745,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/f94135ecd48bb79c3fa6523abab53f93db295932/minecoin.zip"
+    },
+    "media/movies.zip": {
+      "sha1": "1af1e84df89dbb8d7e4d7c8f4909b392391fa952",
+      "size": 25934,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/1af1e84df89dbb8d7e4d7c8f4909b392391fa952/movies.zip"
+    },
+    "media/onevanilla.zip": {
+      "sha1": "62608a3dbbff570ec8c19c2fa14ce2bed0113cab",
+      "size": 6996118,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/62608a3dbbff570ec8c19c2fa14ce2bed0113cab/onevanilla.zip"
+    },
+    "media/profile.zip": {
+      "sha1": "c264f0875d7621210f05805b0d051bb02f30785f",
+      "size": 2264329,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/c264f0875d7621210f05805b0d051bb02f30785f/profile.zip"
+    },
+    "media/realms.zip": {
+      "sha1": "e07e8b8b511b0f1c8a20f1dd0b129815ce3660cd",
+      "size": 855202,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/e07e8b8b511b0f1c8a20f1dd0b129815ce3660cd/realms.zip"
+    },
+    "media/textures.zip": {
+      "sha1": "13c92c78bc5e1e7a5b572af9b45873830c3f5fb6",
+      "size": 201885,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/13c92c78bc5e1e7a5b572af9b45873830c3f5fb6/textures.zip"
+    },
+    "media/upsellcontent.zip": {
+      "sha1": "af1a4f9ac6b656bf7cd1b297059abed2eb08e024",
+      "size": 1396125,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/af1a4f9ac6b656bf7cd1b297059abed2eb08e024/upsellcontent.zip"
+    },
+    "media/vanillamusicbeats.zip": {
+      "sha1": "ad565205fbffd3e48376794a66a3f638d57a58b5",
+      "size": 6410605,
+      "url": "https://redstone-launcher.mojang.com/release/v2/objects/ad565205fbffd3e48376794a66a3f638d57a58b5/vanillamusicbeats.zip"
+    }
+  }
+}
