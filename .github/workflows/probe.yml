@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - '.github/workflows/probe.yml'
+      - 'tools/*.py'
+      - 'tests/*.py'
 
 permissions:
   contents: read
