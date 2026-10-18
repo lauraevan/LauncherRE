@@ -1,11 +1,6 @@
 name: Deploy LauncherRE browser preview
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "preview/**"
-      - ".github/workflows/preview.yml"
   workflow_dispatch:
 
 permissions:
@@ -40,11 +35,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Enable Pages workflow publishing if not configured
-        run: |
-          gh api repos/"$GITHUB_REPOSITORY"/pages >/dev/null 2>&1 ||
-          gh api -X POST repos/"$GITHUB_REPOSITORY"/pages -f build_type=workflow
-        env:
-          GH_TOKEN: ${{ github.token }}
       - id: deployment
         uses: actions/deploy-pages@v4
