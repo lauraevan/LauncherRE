@@ -1,0 +1,11 @@
+# Downloaded Mojang binaries and media: never commit
+.cache/
+launcher-files/
+*.part
+# Generated local reports
+reports/
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
